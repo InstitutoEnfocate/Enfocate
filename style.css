@@ -594,6 +594,30 @@ a {
   color: var(--secondary-color);
 }
 
+.cta-container {
+    text-align: center; /* Centra el botón */
+    margin-top: 50px;   /* Le da aire respecto a las tarjetas */
+    width: 100%;        /* Ocupa todo el ancho para poder centrar bien */
+}
+
+.btn-listado {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #0056b3; /* Azul institucional */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;       /* Bordes redondeados modernos */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+}
+
+.btn-listado:hover {
+    background-color: #003d7a; /* Un azul más oscuro al pasar el mouse */
+    transform: translateY(-3px); /* Efecto de levante */
+    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.4);
+}
+
 /* =====================
    METODOLOGÍA
 ===================== */
